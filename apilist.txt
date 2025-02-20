@@ -1,0 +1,9 @@
+localhost:3000/user/register
+POST
+
+payload:{"firstname":"shreya","lastname":"bijja","email":"shreya@gmail.com","password":"123","usertype":1}
+
+
+localhost:3000/user/login
+POST
+{"email":"shreya@gmail.com","password":"123","usertype":2}
